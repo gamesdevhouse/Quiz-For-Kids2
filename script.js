@@ -65,7 +65,21 @@ document.addEventListener("DOMContentLoaded",) function () {
         }   
 ];
 }
-    
+// Keep track of the current question and user´s score
+let currentQuestionIndex = 0;
+let score = 0;
+
+// Dom elements - Reference to HTML elements using their id
+let questionElement = document.getElementById("question");
+let optionsElement = document.getElementById("options");
+let feedbackElement = document.getElementById("feedback");
+let scoreElement = document.getElementById("score");
+let progressElement = document.getElementById("progress");
+let quizSummaryElement = document.getElementById("quiz-summary");
+let refreshButton = document.getElementById("refresh-button");
+
+
+
     
     
     
