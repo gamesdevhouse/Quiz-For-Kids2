@@ -78,8 +78,29 @@ let progressElement = document.getElementById("progress");
 let quizSummaryElement = document.getElementById("quiz-summary");
 let refreshButton = document.getElementById("refresh-button");
 
-
-
+// Function - Load a question with anwswer options
+function loadQuestion() {
+    if (currentQuestionIndex < questions.length) {
+        let currentQuestion = questions[qurrentQuestionIndex];
+        questionElement.textContent = currentQuestion.question;
+        optionsElement.innerHTML = "";
+        currentQuestion.options.forEach((option, index) => {
+            let optionButton = document.createElement("button");
+            optionButton.textContent = option;
+            optionButton.classList.add("option-button");
+            optionButton.addEventListener("click", () => {
+                currentQuestion.userAnswer = currentQuestion.options[index];
+                checkAnswer(index);
+            });
+            optionsElement.appendChild(optionButton);
+        });
+        feedbackElement.textContent = "";
+        feedbackElement.classList.remove("correct", "incorrect");
+        updateProgress();
+    } else {
+        displayResults();    
+    }
+}
     
     
     
