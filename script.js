@@ -78,7 +78,8 @@ let progressElement = document.getElementById("progress");
 let quizSummaryElement = document.getElementById("quiz-summary");
 let refreshButton = document.getElementById("refresh-button");
 
-// Function - Load a question with anwswer options
+
+// Present questions + answer options
 function loadQuestion() {
     if (currentQuestionIndex < questions.length) {
         let currentQuestion = questions[qurrentQuestionIndex];
@@ -102,7 +103,21 @@ function loadQuestion() {
     }
 }
     
-    
+// Evaluate user´s response, update score + provide feedback
+function checkAnswer(selectedIndex) {
+    let currentQuestion = questions[currentQuestionIndex];
+    if (selectedIndex === currentQuestion.options.indexOf(currentQuestion.answer)) {
+        score++;
+        scoreElement.textContent = `${score}/${questions.length}`;
+        feedbackElement.textContent = "Correct!";
+        feedbackElement.classList.add("correct");
+    } else {
+        feedbackElement.textContent = "Incorrect!";
+        feedbackElement.classList.add("incorrect");
+    }
+    currentQuestionIndex++;
+    loadQuestion();
+}
     
     
     
