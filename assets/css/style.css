@@ -31,4 +31,24 @@ ul {
     list-style-type: none;
 }
 
-hr
+hr {
+    border-top: 2px solid;
+    border-color: #7c21a2;
+    width: 40%;
+}
+
+/*-- QUIZ CONTAINER --------------------------------------------------------*/
+
+.quiz-container {
+    background-color: #98dfef;
+    border-radius: 50px 50px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.55);
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    font-family; "Patrick Hand SC", cursive;
+    font-siza: 30px;
+}
+
+
+
