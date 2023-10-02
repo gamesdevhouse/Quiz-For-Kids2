@@ -1,4 +1,4 @@
-// Function - Ensure JavaScript runs after HTML
+// Ensure JavaScript runs after HTML
 document.addEventListener("DOMContentLoaded",) function () {
     
     // 10 quiz questions, 4 answer options/questions, 1 correct answer option/question, a placeholder/question
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded",) function () {
 let currentQuestionIndex = 0;
 let score = 0;
 
-// Dom elements - Reference to HTML elements using their id
+// DOM elements - Reference to HTML elements using their id
 let questionElement = document.getElementById("question");
 let optionsElement = document.getElementById("options");
 let feedbackElement = document.getElementById("feedback");
@@ -82,7 +82,7 @@ let refreshButton = document.getElementById("refresh-button");
 // Present questions + answer options
 function loadQuestion() {
     if (currentQuestionIndex < questions.length) {
-        let currentQuestion = questions[qurrentQuestionIndex];
+        let currentQuestion = questions[currentQuestionIndex];
         questionElement.textContent = currentQuestion.question;
         optionsElement.innerHTML = "";
         currentQuestion.options.forEach((option, index) => {
@@ -118,20 +118,40 @@ function checkAnswer(selectedIndex) {
     currentQuestionIndex++;
     loadQuestion();
 }
+// Display user´s result = final score + summary of incorrect answers 
+function displayResults() {
+    let finalScore = `${score}/${questions.length}`;
+    let summaryHTML = "<ul class='quiz-summary-list'>";
     
+    for (let i = 0; i < questions.length; i++) {
+        if (questions[i].userAnswer !== questions[i].answer) {
+            summaryHTML += "<li>";
+            summaryHTML += `<p>${questions[i].question}</p>`;
+            summaryHTML += "<div class='answer-container'>";
+            summaryHTML += `<span class="red-mark">${questions[i].userAnswer}</span>`;
+            summaryHTML += `<span class="green-mark">${questions[i].answer}</span>`;
+            summaryHTML += "</div>";
+            summaryHTML += "</li>";
+        }
+    }
     
+    summaryHTML +="</ul>";
+    quizSummaryElement.innerHTML = summaryHTML;
+    quizSummaryElement.style.display = "block";
+    questionElement.style.display = "none";
+    optionsElement.style.display = "none";
+    feedbackElement.style.display = "none";
+    progressElement.style.display = "none";
     
+    // Message "quiz complete" 
+    let quizCompletedContainer = document.getElementById("quiz-completed-container");
+    quizCompletedContainer.style.display = "block";
     
+    // Good-job image
+    let quizCompletedImage = document.getElementById("quiz-completed-image");
+    quizCompletedImage.style.display = "block";
+}
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
+// Inital load of the first question and progress indicator
+loadQuestion();
+updateProgress();
