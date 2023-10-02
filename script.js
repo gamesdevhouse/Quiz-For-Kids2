@@ -1,8 +1,8 @@
 // Ensure JavaScript runs after HTML
-document.addEventListener("DOMContentLoaded",) function () {
+document.addEventListener("DOMContentLoaded", function () { 
     
     // 10 quiz questions, 4 answer options/questions, 1 correct answer option/question, a placeholder/question
-    let questions=[
+    const questions=[
         {
             question: "what is the largest animal in the world?",
             options: ["giraffe", "brown bear", "elephant", "blue whale"],
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded",) function () {
             userAnswer: null
         },
         {
-            questions: "a lobster has how many legs?",
+            question: "a lobster has how many legs?",
             options: ["8", "20", "12", "10"],
             answer: "10",
             userAnswer: null
@@ -63,26 +63,26 @@ document.addEventListener("DOMContentLoaded",) function () {
             answer: "china",
             userAnswer: null
         }   
-];
-}
+        ];
+
 // Keep track of the current question and user´s score
 let currentQuestionIndex = 0;
 let score = 0;
 
 // DOM elements - Reference to HTML elements using their id
-let questionElement = document.getElementById("question");
-let optionsElement = document.getElementById("options");
-let feedbackElement = document.getElementById("feedback");
-let scoreElement = document.getElementById("score");
-let progressElement = document.getElementById("progress");
-let quizSummaryElement = document.getElementById("quiz-summary");
-let refreshButton = document.getElementById("refresh-button");
+const questionElement = document.getElementById("question");
+const optionsElement = document.getElementById("options");
+const feedbackElement = document.getElementById("feedback");
+const scoreElement = document.getElementById("score");
+const progressElement = document.getElementById("progress");
+const quizSummaryElement = document.getElementById("quiz-summary");
+const refreshButton = document.getElementById("refresh-button");
 
 
 // Present questions + answer options
 function loadQuestion() {
     if (currentQuestionIndex < questions.length) {
-        let currentQuestion = questions[currentQuestionIndex];
+        const currentQuestion = questions[currentQuestionIndex];
         questionElement.textContent = currentQuestion.question;
         optionsElement.innerHTML = "";
         currentQuestion.options.forEach((option, index) => {
@@ -118,9 +118,15 @@ function checkAnswer(selectedIndex) {
     currentQuestionIndex++;
     loadQuestion();
 }
+
+// Function - update the progress indicator
+function updateProgress() {
+    progressElement.textContent = `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+}
+
 // Display user´s result = final score + summary of incorrect answers 
 function displayResults() {
-    let finalScore = `${score}/${questions.length}`;
+    const finalScore = `${score}/${questions.length}`;
     let summaryHTML = "<ul class='quiz-summary-list'>";
     
     for (let i = 0; i < questions.length; i++) {
@@ -135,7 +141,7 @@ function displayResults() {
         }
     }
     
-    summaryHTML +="</ul>";
+    summaryHTML += "</ul>";
     quizSummaryElement.innerHTML = summaryHTML;
     quizSummaryElement.style.display = "block";
     questionElement.style.display = "none";
@@ -155,3 +161,4 @@ function displayResults() {
 // Inital load of the first question and progress indicator
 loadQuestion();
 updateProgress();
+});
