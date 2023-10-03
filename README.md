@@ -1,10 +1,7 @@
 
 # Quiz for Kids
 
-Welcome to a fun quiz designed for kids, where they can test their knowledge on a wide range of topics. In this quiz, there are a total of ten questions, and for each question, there are four options to choose from. However, only one of those options is correct.
-
-The quiz container's interface follows the same color scheme as the background image, ensuring a cohesive design. The font is in uppercase for enhanced readability, and the two font families used are chosen with the target audience in mind.
-
+Welcome to an engaging interactive quiz, specially designed for kids. Here, they can challenge their knowledge on a variety of topics and receive a final score based on their answers.
 
 ## Table of Contents
 
@@ -21,12 +18,18 @@ It's a web-based, JavaScript quiz application designed for kids. It includes a s
 
 ## Features
 
-- Interactive quiz for kids.
-- Multiple-choice questions with four answer options.
-- Immediate feedback on each answer.
-- Keeps track of the user's score.
-- Displays a summary of incorrect answers after completing the quiz.
-- Option to restart the quiz and try again.
+### Interactive quiz for kids
+An engaging and entertaining learning experience for children. It encourages them to participate actively and leanrn while having fun.
+### Multiple-choice questions with four answer options
+By presenting four answer options per question, it´s easier for kids to answer and learn. 
+### Score tracking
+The quiz keep track of the user´s score throughout the quiz which adds an element of competition and achievement, motivating kids to do their best. 
+### Summary of incorrect answers
+After completing the quiz, the user can review a summary off the questions answered incorrectly including their own answer and the correct answer placed next to it. This allow the user to revisit and understand the topics they found challenging.
+### Option to restart the quiz and try again.
+With the "Try again" button the user can restart the quiz, giving the user the opportunity to reinforce their knowledge by attempting the quiz multiple times.
+### Styles
+The interface of the quiz follows the same colorscheme as the background image, ensuring a cohesive design. Uppercase letters are used, throughout, for enhanced readability and font families are chosen with the target audience in mind. 
 
 ## Screenshots
 
