@@ -3,15 +3,6 @@
 
 Welcome to an engaging interactive quiz, specially designed for kids. This web-based JavaScript quiz offers an enjoyable and educational experience, featuring 10 multiple-choice questions spanning various topics. As you progress through the quiz, the application keeps track of your score, infusing an element of competition and achievement that motivates kids to give their best. After completing the quiz, review your responses alongside the correct answers, making learning both fun and informative. Take part of this educational adventure where knowledge and enjoyment go hand in hand.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [License](#license)
-
 ## Overview
 
 It's a web-based, JavaScript quiz application designed for kids. It includes a set of ten multiple-choice questions on various subjects. The user selects an answer to each question, and the application provides immediate feedback on whether the answer is correct or not. After completing the quiz, the user can review their answers and see the correct answers for the questions they missed, making it both educational and engaging.
