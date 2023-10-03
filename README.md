@@ -19,6 +19,10 @@ The interface of the quiz follows the same colorscheme as the background image, 
 
 ## Testing
 
+
+
+
+
 ### Validator Testing
 
 ### Unfixed Bugs
@@ -31,15 +35,7 @@ The interface of the quiz follows the same colorscheme as the background image, 
 
 ### Media
 
-## Usage
 
-- When you open the quiz, you will be presented with the first question and multiple answer options.
-- Click on the answer option you think is correct.
-- The application will provide immediate feedback, indicating whether your answer was correct or incorrect.
-- Your score will be displayed in the top of the container.
-- Continue answering questions until you complete the quiz.
-- After completing the quiz, you can review your answers and see the correct answers for the questions you missed.
-- If you wish to try the quiz again, click the "Try Again?" button.
 
 
 
