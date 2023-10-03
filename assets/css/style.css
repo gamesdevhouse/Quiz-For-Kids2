@@ -46,7 +46,7 @@ hr {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.55);
     padding: 30px;
     max-width: 400px;
-    margin: 50px auto;
+    margin: 20px auto;
     font-size: 30px;
     font-family: "Patrick Hand SC", cursive;
 }
@@ -98,7 +98,7 @@ hr {
 #refresh-button {
     background-color: #f9f9f9;
     border-radius: 50px;
-    margin-bottom: 50px;
+    margin: auto;
     padding: 10px;
     cursor: pointer;
     font-family: "Patrick Hand SC", cursive;
@@ -110,8 +110,7 @@ hr {
     background-color: #feca5a;
 }
 
-
-
+/*-- MEDIA QUIRIES ----------------------------------------------------------*/
 
 
 
