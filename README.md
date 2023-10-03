@@ -31,21 +31,19 @@ With the "Try again" button the user can restart the quiz, giving the user the o
 ### Styles
 The interface of the quiz follows the same colorscheme as the background image, ensuring a cohesive design. Uppercase letters are used, throughout, for enhanced readability and font families are chosen with the target audience in mind. 
 
-## Screenshots
+## Testing
 
+### Validator Testing
 
+### Unfixed Bugs
 
-## Getting Started
+## Deployment
 
-To run this quiz application locally, follow these steps:
+## Credits
 
-1. Clone the repository to your local machine:
+### Content
 
-https://github.com/your-username/quiz-for-kids.git
-
-2. Navigate to the project directory:
-
-3. Open the `index.html` file in your web browser.
+### Media
 
 ## Usage
 
@@ -57,8 +55,5 @@ https://github.com/your-username/quiz-for-kids.git
 - After completing the quiz, you can review your answers and see the correct answers for the questions you missed.
 - If you wish to try the quiz again, click the "Try Again?" button.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 
