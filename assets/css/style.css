@@ -110,11 +110,16 @@ hr {
     background-color: #feca5a;
 }
 
-/*-- MEDIA QUIRIES ----------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+.quiz-container {
+        max-width: 90%;
+        font-size: 24px;
+    }
+#refresh-button {
+        font-size: 20px;
+    }
 
-
-
-
+}
 
 
 
