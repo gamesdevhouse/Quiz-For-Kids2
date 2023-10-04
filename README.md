@@ -26,7 +26,7 @@ The interface of the quiz follows the same colorscheme as the background image, 
 
 
 ### WC3 - HTML
-![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/1987f01e-891c-4413-b24e-cac2f7c42c4c)
+![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/8dfd0186-d32b-4a6a-b24a-b80245c591f9)
 ### WC3 - CSS
 ![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/f1a0f9da-fd09-4d76-ab4d-a26942d855fc)
 
