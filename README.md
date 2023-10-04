@@ -2,6 +2,8 @@
 # Quiz for Kids
 Welcome to an engaging interactive quiz, specially designed for kids. This web-based JavaScript quiz offers an enjoyable and educational experience, featuring 10 multiple-choice questions spanning various topics. As you progress through the quiz, the application keeps track of your score, infusing an element of competition and achievement that motivates kids to give their best. After completing the quiz, review your responses alongside the correct answers, making learning both fun and informative. Take part of this educational adventure where knowledge and enjoyment go hand in hand.
 
+![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/9bec7087-eb1f-4c43-8089-08faf4822831)
+
 ## Features
 
 #### Interactive quiz for kids
