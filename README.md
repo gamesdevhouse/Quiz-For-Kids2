@@ -21,21 +21,46 @@ The interface of the quiz follows the same colorscheme as the background image, 
 
 ## Testing
 #### Nu html Checker
-![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/8dfd0186-d32b-4a6a-b24a-b80245c591f9)
+![image](http s://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/8dfd0186-d32b-4a6a-b24a-b80245c591f9)
+No errors 
 #### WC3 - CSS
 ![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/f1a0f9da-fd09-4d76-ab4d-a26942d855fc)
+No errors
 #### LightHouse
 ![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/a83894c1-8581-4c80-8241-509dbb01969b)
 #### Google Developer tools & https://ui.dev/amiresponsive
-Used for assessing the website´s responsiveness across mulitple platfroms - desktop, tablet and mobile devices(Ios & Android). Performance optimal.
+Used for assessing the website´s responsiveness across mulitple platfroms - desktop, tablet and mobile devices (Ios & Android). Performance optimal.
 #### Browers
-Performance remains consistent across Mozilla, Chrome, and Edge-
+Performance remains consistent across Mozilla, Chrome and Edge.
 
 ### Unfixed Bugs
+No unfixed bugs. 
 
 ## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab.
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
+The live link can be found here: https://glennjohansson85.github.io/p2-online_quiz/
 ## Credits
+#### Code Institute:
+ - Comparative Programming Languages Essentials
+ - Portfolio 2: Assessments Guide Preview
+ - JavaScipt Essentials
+ - Love Maths - Essentials Project
+ - Portfolio 2: Project Submission
+ - Student support: Tutor Assistance, Slack forum
+#### Websites:
+- https://alvarotrigo.com/blog/css-highlight-text/ = Used, partly, in the summary of incorrect answers.
+- https://www.flaticon.com/ = "good-job.png" image downloaded from here.
+- https://www.iloveimg.com/ = "good-job.png" rezised using this application.
+- https://unsplash.com/wallpapers/people/kids = "background.png" image downloaded from here.
+- https://imagecolorpicker.com/ = Used this application to get the color codes from "background.png" image.
+- https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html = Code for adding alt. text to "background.png" image.
+- https://fonts.google.com/ = Fontfamilies "Luckiest Guy" and "Patrick Hand SC" downloaded from here.
+- https://www.makeareadme.com/ = Used as a complement to Code Institute material.
+- https://www.w3schools.com/ = Used as a complement to Code Institute material.
 
 ### Content
 
