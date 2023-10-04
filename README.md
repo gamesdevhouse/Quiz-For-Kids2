@@ -2,9 +2,9 @@
 # Quiz for Kids
 Welcome to an engaging interactive quiz, specially designed for kids. This web-based JavaScript quiz offers an enjoyable and educational experience, featuring 10 multiple-choice questions spanning various topics. As you progress through the quiz, the application keeps track of your score, infusing an element of competition and achievement that motivates kids to give their best. After completing the quiz, review your responses alongside the correct answers, making learning both fun and informative. Take part of this educational adventure where knowledge and enjoyment go hand in hand.
 
-## Features
+### Features
 
-#### Interactive quiz for kids
+###### Interactive quiz for kids
 An engaging and entertaining learning experience for children. It encourages them to participate actively and leanrn while having fun.
 #### Multiple-choice questions with four answer options
 By presenting four answer options per question, it´s easier for kids to answer and learn. 
