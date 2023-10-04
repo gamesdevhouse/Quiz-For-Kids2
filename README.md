@@ -62,9 +62,7 @@ The live link can be found here: https://glennjohansson85.github.io/p2-online_qu
 - https://www.makeareadme.com/ = Used as a complement to Code Institute material.
 - https://www.w3schools.com/ = Used as a complement to Code Institute material.
 
-### Content
 
-### Media
 
 
 
