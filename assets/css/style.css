@@ -10,36 +10,28 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 h1 {
     font-family: "Luckiest Guy", cursive;
     font-size: 50px;
     color: #7c21a2;
     margin-bottom: 20px;
 }
-
 h2 {
     color: #0e5886;
 }
-
 p { 
     font-size: 30px;
-    text-align: center;
-    
+    text-align: center; 
 }
-
 ul {
     list-style-type: none;
 }
-
 hr {
     border-top: 2px solid;
     border-color: #7c21a2;
     width: 40%;
 }
-
 /*-- QUIZ CONTAINER --------------------------------------------------------*/
-
 .quiz-container {
     background-color: #98dfef;
     border-radius: 50px 50px;
@@ -50,7 +42,6 @@ hr {
     font-size: 30px;
     font-family: "Patrick Hand SC", cursive;
 }
-
 /* quiz questions */
 .option-button {
     background-color: #f9f9f9;
@@ -63,38 +54,31 @@ hr {
     font-variant: small-caps;
     width: 70%;
 }
-
 .option-button:hover {
     background-color: #feca5a;
 }
-
 .quiz-summary-list {
     list-style-type: none;
     padding: 0px;
     font-size: 25px;
 }
-
 .red-mark {
     background: #ff0000;
     border-radius: 20% 25% 20% 24%;
     padding: 10px 3px 3px 10px;
 }
-
 .green-mark {
     background: #76ff00;
     border-radius: 20% 25% 20% 24%;
     padding: 10px 3px 3px 10px;
 }
-
 .answer-container {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
     margin-top: -20px;
 }
-
 /*-- TRY AGAIN CONTAINER ---------------------------------------------------*/
-
 #refresh-button {
     background-color: #f9f9f9;
     border-radius: 50px;
