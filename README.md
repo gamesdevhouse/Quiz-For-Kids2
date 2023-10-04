@@ -20,17 +20,16 @@ With the "Try again" button the user can restart the quiz, giving the user the o
 The interface of the quiz follows the same colorscheme as the background image, ensuring a cohesive design. Uppercase letters are used, throughout, for enhanced readability and font families are chosen with the target audience in mind. 
 
 ## Testing
-
-
-
-
-
-### Nu html Checker
+#### Nu html Checker
 ![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/8dfd0186-d32b-4a6a-b24a-b80245c591f9)
-### WC3 - CSS
+#### WC3 - CSS
 ![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/f1a0f9da-fd09-4d76-ab4d-a26942d855fc)
-### LightHouse
+#### LightHouse
 ![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/a83894c1-8581-4c80-8241-509dbb01969b)
+#### Google Developer tools & https://ui.dev/amiresponsive
+Used for assessing the website´s responsiveness across mulitple platfroms - desktop, tablet and mobile devices(Ios & Android). Performance optimal.
+#### Browers
+Performance remains consistent across Mozilla, Chrome, and Edge-
 
 ### Unfixed Bugs
 
