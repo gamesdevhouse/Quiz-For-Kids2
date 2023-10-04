@@ -29,7 +29,8 @@ The interface of the quiz follows the same colorscheme as the background image, 
 ![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/8dfd0186-d32b-4a6a-b24a-b80245c591f9)
 ### WC3 - CSS
 ![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/f1a0f9da-fd09-4d76-ab4d-a26942d855fc)
-
+### LightHouse
+![image](https://github.com/GlennJohansson85/p2-online_quiz/assets/139962883/a83894c1-8581-4c80-8241-509dbb01969b)
 
 ### Unfixed Bugs
 
