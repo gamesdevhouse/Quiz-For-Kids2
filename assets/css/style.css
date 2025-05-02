@@ -98,9 +98,12 @@ hr {
 .footer-bar {
   position: fixed;
   bottom: 10px;
-  width: 100%;
-  text-align: center;
-  font-size: 14px;
-  color: #555;
+  right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 8px;
   z-index: 9999;
 }
