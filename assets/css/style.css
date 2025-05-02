@@ -92,3 +92,15 @@ hr {
 #refresh-button:hover {
     background-color: #feca5a;
 }
+
+
+/* Footer copyright bar */
+.footer-bar {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  z-index: 9999;
+}
